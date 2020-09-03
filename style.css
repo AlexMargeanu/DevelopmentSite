@@ -1025,7 +1025,7 @@ h3 {
   z-index: 20;
 }
 .rightCenter {
-  width: 900px;
+  width: 1200px;
   height: 100%;
   display: inline-block;
   margin-top: 5rem;
@@ -1045,18 +1045,18 @@ h3 {
 }
 
 .mountain {
-  width:250px;
+  width:270px;
   height: 150px;
   margin-top: 4rem;
-  margin-left: 10rem;
+  margin-left: 13rem;
   border: none;
 }
 .sun {
   position: absolute;
   width: 65px;
   height: 65px;
-  top: 30rem;
-  margin-left: 7rem;
+  top: 22rem;
+  margin-left: -16rem;
   border: none;
  -webkit-animation: slide-bottom 3s infinite alternate-reverse both;
 	        animation: slide-bottom 3s infinite alternate-reverse both;
@@ -1102,7 +1102,7 @@ img {
 .leftCenter {
   width: 1200px;
   height: 1000px;
-  margin-left: 14rem;
+  margin-left: 17rem;
   overflow: hidden;
   margin-top: 1rem;
 }
@@ -1116,7 +1116,7 @@ img {
   position: relative;
   font-size: 1.1rem;
   margin-left: 38rem;
-  margin-top: 20rem;
+  margin-top: 17rem;
 }
    .middle {
   height: 100%;
@@ -1165,9 +1165,7 @@ h3 {
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
-    * {
-      background-color: purple;
-    }
+
 
 }
 /* END MEDIA BREAKPOINTS */ 
