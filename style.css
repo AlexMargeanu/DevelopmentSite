@@ -1118,7 +1118,11 @@ img {
 .leftCenter {
   width: 1200px;
   height: 1000px;
+<<<<<<< HEAD
   margin-left: 23rem;
+=======
+  margin-left: 20rem;
+>>>>>>> 2b26ad9dd29d45bebb6bc09dbc9354c7bde7faab
   overflow: hidden;
   margin-top: 1rem;
 }
