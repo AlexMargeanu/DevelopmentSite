@@ -9,6 +9,14 @@
   height: 100vh;
   width: 100vw;
 }
+#particles-js {
+  width: 80%;
+  height: 46%;
+  margin-left: 10%;
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+}
 /* Left Styling */
 .left {
   width: 60px;
@@ -185,8 +193,8 @@ h3 {
 }
 .line {
  display: inline-block;
-  width: 3px;
-  height: 25rem;
+  width: 2px;
+  height: 20rem;
   background-color: white;
   -webkit-animation: scale-up-ver-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-ver-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -219,7 +227,7 @@ h3 {
 
 /* Footer Styling */
 .footer {
-  width: 90%;
+  width: 30%;
   height: 30px;
   position: fixed;
   bottom: .5rem;
@@ -230,7 +238,7 @@ h3 {
   font-weight: 700;
   letter-spacing: .2rem;
   z-index: 10;
-  margin-left: 5%;
+  margin-left: 35%;
 }
 .footer p {
   margin-top: 2rem;
@@ -291,6 +299,9 @@ transform: scaleX(1);
 
   * {
     overflow: auto ;
+  }
+  #particles-js {
+    display: none;
   }
   .left {
   width: 55px;
@@ -483,6 +494,9 @@ h3 {
   text-align: center;
   margin-top: -2rem;
 }
+      #particles-js {
+    display: none;
+  }
 .right a {
   text-decoration: underline;
   text-underline-position: under;
@@ -993,180 +1007,10 @@ h3 {
       }
     
 }  
-
-
-@media screen and (min-width:1279px)  {
-.right {
-  width: 61px;
-  height: 98%;
-  position: absolute;
-  transition: all .9s ease-in;
-  z-index: 3;
-  text-align: center;
-  margin-top: -2rem;
-}
-.rightText {
-  background-color: black;
-  color: white;
-  display: inline-block;
-  transform: rotate(90deg);
-  bottom: 2.1rem;
-  text-transform: uppercase;
-  position: absolute;
-  text-align: center;
-  transition: all .9s ease-in-out;
-  font-size: .8rem;
-  font-weight: 700;
-  letter-spacing: .2rem;
-  right: 0;
-}
-.insertThree {
-  width: 100%;
-  z-index: 20;
-}
-.rightCenter {
-  width: 1200px;
-  height: 100%;
-  display: inline-block;
-  margin-top: 5rem;
-  margin-left: 2rem;
-  
-}
-.rightHeader {
-  color: white;
-  width: 60%;
-  height: 100%;
-  line-height: 1.8rem;
-  letter-spacing: .1rem;
-  word-spacing: -2px;
-  display: inline-block;
-  margin-left: .1rem;
-  font-size: 1.1rem;
-}
-
-.mountain {
-  width:270px;
-  height: 150px;
-  margin-top: 4rem;
-  margin-left: 13rem;
-  border: none;
-}
-.sun {
-  position: absolute;
-  width: 65px;
-  height: 65px;
-  top: 22rem;
-  margin-left: -16rem;
-  border: none;
- -webkit-animation: slide-bottom 3s infinite alternate-reverse both;
-	        animation: slide-bottom 3s infinite alternate-reverse both;
-
-}
-  .left {
-  width: 55px;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  transition: all .9s ease-in-out;
-  z-index: 2;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-.leftText {
-  color: white;
-  display: inline-block;
-  transform: rotate(-90deg);
-  margin-top: 2rem;
-  text-transform: uppercase;
-  position: absolute;
-  text-align: center;
-  font-size: .8rem;
-  font-weight: 700;
-  letter-spacing: .2rem;
-}
-.insertTwo {
-  width: 100%;
-  z-index: 20;
-  
-}
-img {
-  width: 230px;
-  height: 230px;
-  margin-left: 18rem;
-  margin-top: 1rem;
-  border: 2px solid white;
-  margin-right: 6rem;
-  display: inline-block;
-  margin-bottom: 5rem;
-}
-.leftCenter {
-  width: 1200px;
-  height: 1000px;
-  margin-left: 17rem;
-  overflow: hidden;
-  margin-top: 1rem;
-}
-.leftHeader {
-  color: white;
-  width: 47%;
-  height: 1000px;
-  line-height: 2rem;
-  letter-spacing: .1rem;
-  word-spacing: -2px;
-  position: relative;
-  font-size: 1.1rem;
-  margin-left: 38rem;
-  margin-top: 17rem;
-}
-   .middle {
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  transition: all .3s ease-in-out;
-}
-h3 {
-  color: white;
-  display: inline-block;
-  display: none;
-  letter-spacing: .2rem;
-}
-.fadeInOne{
-  padding-bottom: 1rem;
-  margin-top: 2rem;
-  font-size: 2rem;
-}
-      .fadeInTwo {
-        font-size: 1.8rem;
-      }
-.fadeInThree {
-  margin-top: -1.4rem;
-  font-size: 1.4rem;
-}
-.line {
- display: inline-block;
-  width: 3px;
-  height: 15rem;
-  background-color: white;
-  -webkit-animation: scale-up-ver-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-ver-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-  animation-delay: 4s;
-}
-      .footer {
-        font-size: .8rem;
-        z-index: 20;
-      }
-      .insertOne {
-        height: 130px;
-      }
-    
-}
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-
-
+@media screen and (width: 1200) {
+  * {
+    background-color: pin;
+  }
 }
 /* END MEDIA BREAKPOINTS */ 
 
