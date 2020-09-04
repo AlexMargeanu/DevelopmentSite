@@ -1002,7 +1002,7 @@ h3 {
       }
     
 }  
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1000px) and (max-width: 1300px) {
   * {
     background-color: pink;
   }
