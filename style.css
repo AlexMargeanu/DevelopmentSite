@@ -943,7 +943,7 @@ img {
 .leftCenter {
   width: 1200px;
   height: 1000px;
-  margin-left: -1rem;
+  margin-left: 25rem;
   overflow: hidden;
   margin-top: 1rem;
 }
