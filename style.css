@@ -343,7 +343,7 @@ img {
   width: 1200px;
   height: 700px;
   margin-left: -12rem;
-  overflow: hidden;
+  overflow: hidde;
 }
 .leftHeader {
   color: white;
@@ -430,9 +430,12 @@ img {
 }
   .footer {
     z-index: 20;
+    font-size: .7rem;
+    width: 100%;
+    margin-left: 0;
   }
   .insertOne {
-    height: 160px;
+    height: 127px;
   }
   
   
@@ -1108,7 +1111,7 @@ h3 {
 img {
   width: 130px;
   height: 130px;
-  margin-left: 15rem;
+  margin-left: 13.2rem;
   margin-top: 1rem;
   border: 2px solid white;
   margin-right: 6rem;
@@ -1185,7 +1188,11 @@ h3 {
 
 
 
-
+.fb-page{
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0px 0px;
+  -moz-transform-origin: 0px 0px;
+}
 
 
 
