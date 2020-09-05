@@ -99,7 +99,7 @@ img {
   right: 0;
 }
 .insertThree {
-  width: 97%;
+  width: 100%;
   z-index: 20;
 }
 .rightCenter {
@@ -943,7 +943,7 @@ img {
 .leftCenter {
   width: 1200px;
   height: 1000px;
-  margin-left: 24rem;
+  margin-left: -1rem;
   overflow: hidden;
   margin-top: 1rem;
 }
@@ -1118,7 +1118,7 @@ img {
 .leftCenter {
   width: 1200px;
   height: 1000px;
-  margin-left: 26rem;
+  margin-left: 24.2rem;
   overflow: hidden;
   margin-top: 1rem;
 }
