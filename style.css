@@ -290,7 +290,7 @@ transform: scaleX(1);
   bottom: 0;
 }
 /* START MEDIA BREAKPOINTS */ 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation: portrait) {
+@media only screen and (min-device-width : 300px) and (max-device-width : 500px) and (orientation: portrait) {
 
   * {
     overflow: auto ;
@@ -1185,14 +1185,6 @@ h3 {
     
 }
 /* END MEDIA BREAKPOINTS */ 
-
-
-
-.fb-page{
-  transform-origin: 0 0;
-  -webkit-transform-origin: 0px 0px;
-  -moz-transform-origin: 0px 0px;
-}
 
 
 
